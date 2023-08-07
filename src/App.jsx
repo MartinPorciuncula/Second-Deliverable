@@ -12,6 +12,8 @@ function App() {
     "01d": "bg-[url(/Images/day.png)]",
     "02n": "bg-[url(/Images/few-clouded-night.jpg)]",
     "02d": "bg-[url(/Images/few-clouded-day.jpg)]",
+    "03d": "bg-[url(/Images/scattered-clouds-day.jpg)]",
+    "03n": "bg-[url(/Images/scattered-clouds-night.jpg)]",
     "04n": "bg-[url(/Images/clouded-night.jpg)]",
     "04d": "bg-[url(/Images/clouded-day.jpg)]",
     "09d": "bg-[url(/Images/rain-day.jpg)]",

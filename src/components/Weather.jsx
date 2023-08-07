@@ -73,7 +73,7 @@ const weather = ({ changeCountry }) => {
         onClick={handleChangeUnitTemp}
         className="bg-blue-400 text-white rounded-2xl my-4 text-[19px] p-1 px-6"
       >
-        Cambiar a {isCelsius ? "F°" : "C°"}
+        Change To {isCelsius ? "F°" : "C°"}
       </button>
     </section>
   );
