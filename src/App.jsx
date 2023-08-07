@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import axios from "axios";
 import Weather from "./components/weather";
+
 function App() {
   const [weatherinfo, setWeatherinfo] = useState(null);
   const [countryInfo, setCountryInfo] = useState(null);
@@ -61,8 +62,6 @@ function App() {
       } min-h-screen font-lato flex justify-center align-center flex-col items-center px-4 bg-cover`}
     >
       <Weather
-        weatherinfo={weatherinfo}
-        countryInfo={countryInfo}
         changeCountry={changeCountry}
       />
       <form onSubmit={handleSubmit}>

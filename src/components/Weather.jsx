@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import countries from "./../assets/slim-2.json";
 
-const weather = ({ weatherinfo, countryInfo, changeCountry }) => {
+const weather = ({ changeCountry }) => {
   const [isCelsius, setIsCelsius] = useState(true);
 
   const countryfind = countries.find((country) => {
